@@ -1,0 +1,25 @@
+{
+    "name": "andrew-petrenko/bank-logic",
+    "description": "Example of bank logic",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "andrew",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bank\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bank\\Tests\\": "test/"
+        }
+    }
+}
